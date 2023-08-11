@@ -18,7 +18,8 @@ print(lista)
 
 
 # IMPRIMA O SEU NOME NO SHELL E CLIQUE EM RUN PARA TESTAR
-
+print("Imprimindo meu nome no shell")
+print("Lucas")
 
 
 
@@ -31,7 +32,8 @@ lista_misturada = [1, 2, 3, "a", "b", "c", [0, True], None]
 
 # CRIE UMA VARIÁVEL DE LISTA COM SEU NOME, ANO, MÊS E DIA DE NASCIMENTO.
 # EM SEGUIDA, IMPRIMA ESSA LISTA NO SHELL.
-
+listaMeusDados = ["Lucas", 3, 9]
+print(listaMeusDados)
 
 
 
@@ -54,8 +56,10 @@ duas_primeiras_sobremesas = lista_de_sobremesas[0:2] # índices 0 e 1, sem o 2!
 
 # ACESSE O 7º ELEMENTO DA LISTA DE NÚMERO E IMPRIMA-O (CUIDADO COM O ÍNDICE).
 # DEPOIS ACESSE DE UMA VEZ SÓ O 3º, 4º, 5º E 6º ELEMENTO DA LISTA MISTURADA, E IMPRIMA.
+print(lista_de_numeros[6])
+print(lista_misturada[2:6])
 
-
+      
 
 
 # Passando para os textos (strings), usamos aspas duplas ou simples.
@@ -88,6 +92,8 @@ meteorologia = "A temperatura atual é %d˚F / %.1f˚C" % (fahrenheit, celsius) 
 
 # CRIE UMA VARIÁVEL distancia QUE FAÇA A MULTIPLICAÇÃO DE 1280.4 POR 1.60934
 # EM SEGUIDA, IMPRIMA ESSE VARIÁVEL COM 2 CASAS DECIMAIS NO TEXTO "A distância entre NY e Miami é de ____.__ km"
+mult = 1280.4 * 160934
+print("A distância entre NY e Miami é de %.2f km" % (mult))
 
 
 
@@ -100,9 +106,9 @@ numero_decimal = float("1.23")
 # Para finalizar esta primeira parte do Playground, vamos falar de dicionários.
 # Dicionários servem para organizar vários tipos de dados num só lugar.
 # Cada elemento está associado a uma chave, e não a um índice/posição.
-pais1 = {"nome": "Brasil",          "capital": "Brasília",       populacao:  211755692,  democracia: True}
-pais2 = {"nome": "Estados Unidos",  "capital": "Washington DC",  populacao:  328239523,  democracia: True}
-pais3 = {"nome": "China",           "capital": "Pequim",         populacao: 1400050000,  democracia: False}
+pais1 = {"nome": "Brasil",          "capital": "Brasília",       "populacao":  211755692,  "democracia": True}
+pais2 = {"nome": "Estados Unidos",  "capital": "Washington DC",  "populacao":  328239523,  "democracia": True}
+pais3 = {"nome": "China",           "capital": "Pequim",         "populacao": 1400050000,  "democracia": False}
 
 
 # Para acessar o valor de uma chave, usamos colchetes novamente, só que com o nome em vez do índice.
@@ -116,12 +122,19 @@ lista_de_paises = [pais1, pais2, pais3]
 
 # CRIE UM QUARTO PAÍS COM AS MESMAS CHAVES DOS ANTERIORES
 # EM SEGUIDA, ACRESCENTE ESSE PAÍS NA LISTA COM A FUNÇÃO APPEND
+pais4 = {"nome": "Japão",          "capital": "Tóquio",       "populacao":  122423038,  "democracia": True}
+lista_de_paises.append(pais4)
 
 
 
 
 # FAÇA UM FOR QUE PERCORRA TODOS OS PAÍSES.
 # PARA CADA UM, IMPRIMA OS DADOS NO FORMATO "____ é um país com ___ habitantes cujo governo [é] / [não é] uma democracia".
+for pais in lista_de_paises:
+    if pais["democracia"]:
+        print("%s é um país com %d habitantes cujo governo é uma democracia" % (pais["nome"], pais["populacao"]))
+    else:
+        print("%s é um país com %d habitantes cujo governo não é uma democracia" % (pais["nome"], pais["populacao"]))
 
 
 

@@ -34,7 +34,10 @@ if numero < 0 or numero > 100:
     
 # USANDO UM ÚNICO IF, VERIFIQUE SE O NÚMERO ESTÁ ENTRE 0 E 21 OU ENTRE 60 E 122
 # IMPRIMA "paga meia" SE FOR VERDADEIRO, E "paga inteira / é espírito" CASO CONTRÁRIO
-
+if 0 < numero < 21 or 60 < numero < 122:
+    print("papaga meia")
+else:
+    print("paga inteira / é espírito")
 
 
 
@@ -63,7 +66,12 @@ for elemento in lista:
 # USE O FOR PARA PERCORRER CADA VALOR
 # SE FOR MAIOR OU IGUAL A 5, IMPRIMA O VALOR COM 1 CASA DECIMAL SEGUIDO DE ": Aprovado"
 # CASO CONTRÁRIO, IMPRIMA O VALOR COM 1 CASA DECIMAL SEGUIDO DE ": Reprovado"
-
+notas = (3, 5, 7, 4, 8, 2)
+for nota in notas:
+    if nota <= 5:
+        print("Aprovado")
+    else:
+        print("Reprovado")
 
 
 
@@ -91,9 +99,9 @@ def imprime_mantra():
 
 # DESCOMENTE AS LINHAS ABAIXO PARA VER O RESULTADO NO SHELL
 
-#imprime_mantra()
-#for i in range(1, 10):
-#    imprime_mantra()
+imprime_mantra()
+for i in range(1, 10):
+    imprime_mantra()
 
 
 
@@ -127,10 +135,10 @@ def muda_x():
 
 # DESCOMENTE AS LINHAS ABAIXO PARA VER O RESULTADO NO SHELL
 
-#print("\nTentando mudar o x na função:")
-#imprime_x()
-#muda_x()
-#imprime_x()
+print("\nTentando mudar o x na função:")
+imprime_x()
+muda_x()
+imprime_x()
 
 
 
@@ -154,16 +162,26 @@ def muda_y():
 
 # DESCOMENTE AS LINHAS ABAIXO PARA VER O RESULTADO NO SHELL
 
-#print("\nTentando mudar o y na função:")
-#imprime_y()
-#muda_y()
-#imprime_y()
+print("\nTentando mudar o y na função:")
+imprime_y()
+muda_y()
+imprime_y()
 
 
 
 # CRIE UMA VARIÁVEL GLOBAL contagem COMEÇANDO EM 1
 # CRIE UMA FUNÇÃO QUE MODIFIQUE ESSA VARIÁVEL, MULTIPLICANDO-A POR 2
+global count
+count = 1
 
+def mudaCount():
+    global count
+    count = count * 2
+    print("multipliquei count por 2")
+
+print(count)
+mudaCount()
+print(count)
 
 
 # Importando a função sleep.
@@ -174,7 +192,8 @@ while True:
     
     
     # CHAME A FUNÇÃO ANTERIOR E DEPOIS IMPRIMA O NOVO VALOR DA CONTAGEM AQUI DENTRO.
-    
+    mudaCount()
+    print(count)
     
     
     
