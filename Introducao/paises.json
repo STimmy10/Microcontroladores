@@ -1,0 +1,306 @@
+[
+    {
+        "nome": "Brasil",
+        "elementos": [
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": 30,
+                "comprimento": 100,
+                "altura": 60,
+                "cor": "green"
+            },
+            {
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": 0,
+                        "y": 25
+                    },
+                    {
+                        "x": -45,
+                        "y": 0
+                    },
+                    {
+                        "x": 0,
+                        "y": -25
+                    },
+                    {
+                        "x": 45,
+                        "y": 0
+                    }
+                ],
+                "cor": "yellow"
+            },
+            {
+                "tipo": "círculo",
+                "x": 0,
+                "y": 0,
+                "raio": 13,
+                "cor": "blue"
+            }
+        ]
+    },
+    {
+        "nome": "Franca",
+        "elementos": [
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": 30,
+                "comprimento": 33.3,
+                "altura": 60,
+                "cor": "blue"
+            },
+            {
+                "tipo": "retângulo",
+                "x": -16.7,
+                "y": 30,
+                "comprimento": 33.3,
+                "altura": 60,
+                "cor": "white"
+            },
+            {
+                "tipo": "retângulo",
+                "x": 16.6,
+                "y": 30,
+                "comprimento": 33.3,
+                "altura": 60,
+                "cor": "red"
+            }
+        ]
+    },
+    {
+        "nome": "India",
+        "elementos": [
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": 30,
+                "comprimento": 100,
+                "altura": 20,
+                "cor": "orange"
+            },
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": 10,
+                "comprimento": 100,
+                "altura": 20,
+                "cor": "white"
+            },
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": -10,
+                "comprimento": 100,
+                "altura": 20,
+                "cor": "green"
+            },
+            {
+                "tipo": "círculo",
+                "x": 0,
+                "y": 0,
+                "raio": 10,
+                "cor": "orange"
+            }
+        ]
+    },
+    {
+        "nome": "Republica Checa",
+        "elementos": [
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": 30,
+                "comprimento": 100,
+                "altura": 30,
+                "cor": "white"
+            },
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": 0,
+                "comprimento": 100,
+                "altura": 30,
+                "cor": "red"
+            },
+            {
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": -50,
+                        "y": 30
+                    },
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": -50,
+                        "y": -30
+                    }
+                ],
+                "cor": "blue"
+            }
+]
+},
+	   {
+        "nome": "Africa do Sul",
+        "elementos": [
+            {
+                "tipo": "retângulo",
+                "x": -50,
+                "y": 30,
+                "comprimento": 100,
+                "altura": 60,
+                "cor": "green"
+            },
+		{
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": -20,
+                        "y": 30
+                    },
+                    {
+                        "x": 50,
+                        "y": 30
+                    },
+		    {
+			"x": 50,
+			"y":10
+		    },
+		    {
+			"x": 0,
+			"y":10
+		    }
+                ],
+                "cor": "red"
+            },
+	    {
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": -20,
+                        "y": -30
+                    },
+                    {
+                        "x": 50,
+                        "y": -30
+                    },
+		    {
+			"x": 50,
+			"y":-10
+		    },
+		    {
+			"x": 0,
+			"y":-10
+		    }
+                ],
+                "cor": "blue"
+            },
+	   {
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": -20,
+                        "y": 30
+                    },
+                    {
+                        "x": 0,
+                        "y": 10
+                    },
+		    {
+			"x": 50,
+			"y":10
+		    },
+		    {
+			"x": 50,
+			"y":3
+		    },
+			{
+			"x": -3,
+			"y": 3
+		    },
+			{
+                        "x": -30,
+                        "y": 30
+                    }
+			
+                ],
+                "cor": "white"
+            },
+	{
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": -20,
+                        "y": -30
+                    },
+                    {
+                        "x": 0,
+                        "y": -10
+                    },
+		    {
+			"x": 50,
+			"y": -10
+		    },
+		    {
+			"x": 50,
+			"y": -3
+		    },
+			{
+			"x": -3,
+			"y": -3
+		    },
+			{
+                        "x": -30,
+                        "y": -30
+                    }
+			
+                ],
+                "cor": "white"
+            },
+{
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": -50,
+                        "y": 25
+                    },
+                    {
+                        "x": -15,
+                        "y": 0
+                    },
+		    {
+			"x": -50,
+			"y": -25
+		    }
+			
+                ],
+                "cor": "yellow"
+            },
+{
+                "tipo": "polígono",
+                "pontos": [
+                    {
+                        "x": -50,
+                        "y": 15
+                    },
+                    {
+                        "x": -25,
+                        "y": 0
+                    },
+		    {
+			"x": -50,
+			"y": -15
+		    }
+			
+                ],
+                "cor": "black"
+            }
+	
+]
+}
+]
