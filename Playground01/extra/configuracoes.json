@@ -1,0 +1,21 @@
+{
+    "name": "Playground 01",
+    "width": 500,
+    "height": 400,
+    "leds": [
+        {"x": 430, "y": 50,  "name": "LED 1", "pin": 21},
+        {"x": 430, "y": 110, "name": "LED 2", "pin": 22},
+        {"x": 430, "y": 170, "name": "LED 3", "pin": 23},
+        {"x": 430, "y": 230, "name": "LED 4", "pin": 24},
+        {"x": 430, "y": 290, "name": "LED 5", "pin": 25}
+    ],
+    "buttons": [
+        {"x": 30, "y": 280, "name": "Botão 1", "pin": 11},
+        {"x": 100, "y": 280, "name": "Botão 2", "pin": 12},
+        {"x": 170, "y": 280, "name": "Botão 3", "pin": 13},
+        {"x": 240, "y": 280, "name": "Botão 4", "pin": 14}
+    ],
+    "lcds": [
+        {"x": 35, "y": 40, "name": "LCD", "pins":[2, 3, 4, 5, 6, 7], "columns": 16, "lines": 2}
+    ]
+}
