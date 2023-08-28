@@ -1,0 +1,31 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<h2>Funções</h2>
+<ul>
+    <li><a href="/mudo">Ativar mudo</a></li>
+    <li><a href="/power">On/Off</a></li>
+    <li><a href="/volumeUP">Aumentar volume</a></li>
+    <li><a href="/volumeDOWN">Diminuir volume</a></li>
+    <li><a href="/power/10">Dormir em 10 segundos</a></li>
+</ul>
+<h2>Canais</h2>
+<ul>
+    <li><a href="/canal/2010">Canção Nova HD</a></li>
+     {% for e in lista %}
+        <li><a href="/canal/{{e.codigo}}">{{e.nome}}</a></li>
+    {% endfor %}
+</ul>
+
+
+
+
+
+
+
+
+        
+
+        
+
+        
+
+        
